@@ -1,0 +1,6 @@
+
+dependencies {
+  compile group: 'org.slf4j', name: 'slf4j-api', version: deps.slf4j
+  compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+  compile group: 'com.github.harbby', name: 'gadtry', version: deps.gadtry
+}
