@@ -1,0 +1,14 @@
+pluginManagement {
+  repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url "https://plugins.gradle.org/m2/" }
+  }
+}
+
+rootProject.name = 'sqlAnalyze'
+
+include 'sqlAnalyze-api'
+include 'sqlAnalyze-main'
+include 'sqlAnalyze-rest'
+
